@@ -5,6 +5,7 @@
 h1 {
 	line-height: 36px;
 	font-size: 36px;
+	margin-top: 80px;
 }
 
 h2 {
@@ -38,6 +39,28 @@ span {
 	border-radius: 10px;
 }
 
-ul {
+#lijstje {
 	line-height: 26px;
+}
+
+.knoppen {
+	top: 2%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+}
+
+.knoppen>li {
+	display: inline-block;
+	padding: 0px 15px;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: red;
 }
