@@ -15,6 +15,7 @@ html, body {
 }
 
 #buttons {
+	font-size: 20px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -30,4 +31,30 @@ html, body {
 a {
 	text-decoration: none;
 	color: rgba(255, 255, 255, 0.8);
+}
+
+img {
+	position: absolute;
+	top: 280px;
+	left: 740px;
+	transform: translate(-50%, -50%);
+}
+
+#img2 {
+	position: absolute;
+	top: 460px;
+	left: 500px;
+	transform: translate(-50%, -50%);
+}
+
+p {
+	color: white;
+	width: 950px;
+	margin: 0 auto;
+}
+
+#buttons2>ul>li {
+	display: inline-block;
+	text-align: center;
+	padding: 0px 10px;
 }
